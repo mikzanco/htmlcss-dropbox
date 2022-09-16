@@ -181,10 +181,19 @@ h5{
   padding: 25px 0;
 }
 
-span{
-  padding: 20px 0;
+.column-main ul li{
+  padding: 10px 0;
+  list-style: none;
 }
 
+.column-main hr{
+  width: 20%;
+  margin: 30px ;
+}
+
+.fa-check{
+  color: #0061ff;
+}
 
 main .row-name{
   margin-top: 20px;
@@ -211,4 +220,23 @@ main .row .row-left strong{
 
 main .row .row-right{
   width: 30%;
+}
+
+/* partner */
+
+.partner{
+  margin: 100px 0;
+}
+
+.img-partner{
+  width: 70%;
+}
+
+.text-partner{
+  width: 30%;
+}
+
+.btn .part{
+  background-color: white;
+  border: 1px solid lightgray;
 }
