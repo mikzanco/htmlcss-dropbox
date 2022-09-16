@@ -176,8 +176,9 @@ main .piano .column .column-main{
   padding: 25px;
 }
 
-main .piano .column .column-main h5{
+h5{
   font-size: 20px;
+  padding: 25px 0;
 }
 
 span{
@@ -185,9 +186,29 @@ span{
 }
 
 
+main .row-name{
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 20px;
+  text-align: center;
+}
+
 main .row{
+  display: flex;
   width: 100%;
   border: 1px solid lightgray;
   padding: 10px;
 }
 
+main .row .row-left{
+  width: 70%;
+}
+
+main .row .row-left strong{
+  padding-bottom: 20px;
+}
+
+main .row .row-right{
+  width: 30%;
+}
