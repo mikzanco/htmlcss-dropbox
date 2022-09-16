@@ -1,3 +1,5 @@
+/* GENERAL */
+
 *{
   margin: 0;
   padding: 0;
@@ -9,9 +11,10 @@ body{
 }
 
 .btn{
-  padding: 20% 30%;
+  padding: 5px;
   background-color: #0061ff;
   color: white;
+  text-align: center;
 }
 
 .debug{
@@ -19,12 +22,15 @@ body{
   border: 1px solid black;
 }
 
+.d-flex{
+  display: flex;
+}
+
 /* HEADER */
 
 header{
   position: fixed;
   z-index: 999;
-  display: flex;
   justify-content: space-between;
   height: 70px;
   width: 100%;
@@ -34,7 +40,7 @@ header{
 
 nav img{
   vertical-align: middle;  
-  height: 32px;
+  height: 25px;
 }
 
 nav ul li{
@@ -56,13 +62,14 @@ nav ul a:hover{
   border-bottom: 3px solid #535553;
 }
 
+
+
 /* JUMBOTRON */
 
 .jumbotron{
   padding-top: 110px;
   background-color: #b4d0e7;
   width: 100%;
-  display: flex;
   flex-direction: row;
 }
 
@@ -85,7 +92,7 @@ nav ul a:hover{
   display: inline-block;
 }
 
-.btn1{
+.btn .a{
   position: relative;
   
   left: 20%;
@@ -107,8 +114,8 @@ nav ul a:hover{
 .jumbotron .container-big .img{
   margin-top: 5%;
   width: 70%;
- display: inline-block;
- position: absolute;
+  display: inline-block;
+  position: absolute;
 }
 
 img{
@@ -123,23 +130,64 @@ main{
 }
 
 .container{
-  display: flex;
+  
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
+  margin: 0 auto;
   width: 70%;
 }
 
-.title{
-  flex-direction: column;
+main .title h2{
+  
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-main .container h3{
-  font-size: 2rem;
+main .container span input{
+  margin-bottom: 40px;
 }
 
-.column{
-  display: block;
+main .container span #annuale{
+  margin-left: 20px;
+}
+
+main .piano .column{
   width: calc(100% / 3);
+  border: 1px solid lightgray;
+  
+  padding: 10px;
+}
+
+.container .piano{
+  justify-content: space-between;
+}
+
+.column .center{
+  margin: 0 5px;
+}
+
+main .piano .column .column-top{
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+}
+
+main .piano .column .column-main{
+  padding: 25px;
+}
+
+main .piano .column .column-main h5{
+  font-size: 20px;
+}
+
+span{
+  padding: 20px 0;
+}
+
+
+main .row{
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 10px;
 }
 

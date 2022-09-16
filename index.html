@@ -9,7 +9,7 @@
   <title>DropBox</title>
 </head>
 <body>
-  <header>
+  <header class="d-flex">
     <nav>
       <ul>
         <li><img src="img/logo-small.png" alt="logo"></li>
@@ -28,14 +28,14 @@
     </nav>
   </header>
 
-  <div class="jumbotron">
+  <div class="jumbotron d-flex">
     <div class="container-big ">
       <div>
         <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
       </div>
       <div class="text"> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam consequuntur quasi dignissimos expedita, magni rem cupiditate repellat necessitatibus a, autem dolorum, totam laborum esse nisi quae. Quia nesciunt ullam, nisi, sint odit nostrum omnis sit odio, dignissimos veniam sapiente quidem. </p>
-        <span class="btn1">Inizia la tua prova gratuita</span>
-        <span>Annulla in qualsiasi momento</span>
+        <span class="btn a">Inizia la tua prova gratuita</span>
+        <p>Annulla in qualsiasi momento</p>
         <span class="arrow"><i class="fa-solid fa-arrow-down"></i></span>
       </div>
       <div class="img">
@@ -45,26 +45,63 @@
   </div>
   
   <main>
-    <div class="container">
+
+    <section class="container">
+
       <div class="title">
-        <h3>Trova il piano business che fa per te</h3>
-        <input type="radio" name="fatturazione" id="mensile">
-        <span>Fatturazion mensile</span>
-        <input type="radio" name="fatturazione" id="annuale">
-        <span>Fatturazion annuale</span>
+        <h2>Trova il piano business che fa per te</h2> 
+        <span><input type="radio" name="fatturazione" id="mensile">Fatturazion mensile</span>
+        <span><input type="radio" name="fatturazione" id="annuale"> Fatturazion annuale</span>
       </div>
       
-      <div class="column">
-        <div class="card">ok</div>
-      </div>
-      <div class="column">
-        <div class="card">ok</div>
-      </div>
-      <div class="column">
-        <div class="card">ok</div>
-      </div>
+      <div class="piano d-flex">
 
-    </div>
+        <div class="column">
+          <div class="column-top">
+            <span><i class="fa-solid fa-user"></i>Singolo</span>
+          </div>
+          <div class="column-main">
+
+            <div class="plan-name">
+              <h5>Professional</h5>
+              <span> &euro; 12.00</span>
+              <br>
+              <span> /mese</span>
+            </div>
+            
+            <div class="crt">
+              <span><i class="fa-solid fa-user"></i>1 utente</span>
+              <br>
+              <span><i class="fa-solid fa-folder"></i>5 TB di spazio di archiviazione sicuro</span>
+              <span><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</span>
+            </div>
+
+            <div class="trial btn">
+              <span>Prova gratis per 30 giorni</span>
+            </div>
+
+
+
+
+          </div>
+        </div>
+        
+
+        <div class="column center">
+          <span><i class="fa-solid fa-users"></i>Team</span>
+          <div class="card"></div>
+        </div>
+
+        <div class="column">
+          <span><i class="fa-solid fa-building"></i>Azienda</span>
+          <div class="card"></div>
+        </div>
+
+      </div>
+      <div class="row">
+        
+      </div>
+    </section>
   </main>
   
   
