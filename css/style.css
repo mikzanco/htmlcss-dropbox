@@ -79,18 +79,19 @@ nav ul a:hover{
 }
 
 .jumbotron .container-big .text{
-  display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   margin-top: 5%;
   width: 30%;
   display: inline-block;
 }
 
 .btn1{
-  align-items: center;
+  position: relative;
+  
+  left: 20%;
   margin-top: 30%;
   margin: 10%;
-  padding: 1%;
+  padding: 2%;
   width: 60% ;
   background-color: #0061ff;
   color: white;
@@ -98,7 +99,7 @@ nav ul a:hover{
 
 .arrow i{
   margin:10%;
-  display: block;
+  /* display: block; */
  
   font-size: 3rem;
 }
@@ -114,4 +115,31 @@ img{
   width: 80%;
 }
 
+/* MAIN */
+
+main{
+  width: 100%;
+  display: flex;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  width: 70%;
+}
+
+.title{
+  flex-direction: column;
+}
+
+main .container h3{
+  font-size: 2rem;
+}
+
+.column{
+  display: block;
+  width: calc(100% / 3);
+}
 
