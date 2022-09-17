@@ -17,6 +17,10 @@ body{
   text-align: center;
 }
 
+.btn:hover{
+  cursor: pointer;
+}
+
 .debug{
   background-color: rgba(red, 0, 0, 0.3);
   border: 1px solid black;
@@ -126,15 +130,14 @@ img{
 
 main{
   width: 100%;
-  display: flex;
+  /* display: flex; */
 }
 
 .container{
-  
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 70%;
+  width: 60%;
 }
 
 main .title h2{
@@ -203,7 +206,7 @@ main .row-name{
   text-align: center;
 }
 
-main .row{
+main .row {
   display: flex;
   width: 100%;
   border: 1px solid lightgray;
@@ -222,6 +225,10 @@ main .row .row-right{
   width: 30%;
 }
 
+main .row p{
+  padding: 20px 0;
+}
+
 /* partner */
 
 .partner{
@@ -236,7 +243,21 @@ main .row .row-right{
   width: 30%;
 }
 
-.btn .part{
+.text-partner{
+  margin: 20px 0;
+}
+.text-partner .part{
+  margin: 20px 20px 0 0;
   background-color: white;
-  border: 1px solid lightgray;
+  color: black;
+  border: 1px solid black;
+}
+
+main .business .card-row{
+  width: calc(100% / 3);
+  margin: 40px 0;
+}
+
+main .business .card-row p{
+  font-size: 0.9rem;
 }
