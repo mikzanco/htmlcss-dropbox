@@ -410,35 +410,40 @@ main .blue  .btn{
   margin-bottom: 50px;
 }
 
-.qAe p:first-child{
+.qAe .question{
   padding: 30px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.qAe .question{
+  position: relative;
 }
 
 .qAe p{
   padding: 30px 0;
 }
 
-.qAe p:last-child{
+/* .qAe p:last-child{
   padding: 30px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-}
+} */
 
 .qAe .question .chevron{
  padding-left: 30%;
-}
-
-.qAe .question .answ{
-  display: none;
 }
 
 .qAe .question p span i:hover{
   transform: rotate(180deg);
 }
 
-.qAe .question .answ:hover{
+
+.qAe .question .answ{
+  display: none;
+}
+
+.qAe .question p:hover ~ .answ{
   display: block;
 }
 
