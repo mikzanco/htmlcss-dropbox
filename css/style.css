@@ -312,10 +312,11 @@ main .box-sponsor .box-left img, .box-right img{
   left: 0;
   right: 0;
   bottom: 0;
+  filter: invert(1);
 }
 
 main .box-sponsor img{
-  filter: invert(1);
+  
 }
 
 main .box-sponsor .box-middle{
