@@ -434,6 +434,9 @@ main .blue  .btn{
   display: none;
 }
 
+.qAe .question p span i:hover{
+  transform: rotate(180deg);
+}
 
 .qAe .question .answ:hover{
   display: block;
