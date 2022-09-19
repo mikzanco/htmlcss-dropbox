@@ -443,7 +443,7 @@ main .blue  .btn{
   display: none;
 }
 
-.qAe .question p:hover ~ .answ{
+.qAe .question p:hover + .answ{
   display: block;
 }
 
