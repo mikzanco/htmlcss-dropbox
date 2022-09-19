@@ -30,6 +30,10 @@ body{
   display: flex;
 }
 
+li{
+  list-style: none;
+}
+
 /* HEADER */
 
 header{
@@ -48,7 +52,6 @@ nav img{
 }
 
 nav ul li{
-  list-style: none;
   display: inline-block;
   line-height: 70px;
   margin-right: 30px;
@@ -260,4 +263,45 @@ main .business .card-row{
 
 main .business .card-row p{
   font-size: 0.9rem;
+}
+
+/* Clienti */
+
+.client{
+  margin: 50px 0;
+}
+
+.client h2{
+  font-size: 40px;
+}
+
+.client p{
+  margin: 50px 0;
+}
+
+.box-client{
+  width: calc(100% / 6);
+  height: ;
+}
+
+
+/* FOOTER */
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding: 1px;
+}
+
+footer ul{
+  font-size: 20px;
+  color: #f8edda;
+  margin: 30px 40px;
+}
+
+
+footer ul li{
+  color: #b6bbbe;
+  font-size: 12;
+  margin-top: 15px;
 }
