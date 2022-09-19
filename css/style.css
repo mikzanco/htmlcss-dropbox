@@ -315,6 +315,10 @@ main .box-sponsor .box-left img, .box-right img{
   filter: invert(1);
 }
 
+main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
+  box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, .55) ;
+}
+
 main .box-sponsor img{
   
 }
