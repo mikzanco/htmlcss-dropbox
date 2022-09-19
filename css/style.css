@@ -34,6 +34,12 @@ li{
   list-style: none;
 }
 
+
+/* trovare soluzione per i before */
+/* i:before{
+  content: "#";
+} */
+
 /* HEADER */
 
 header{
@@ -193,8 +199,8 @@ h5{
 }
 
 .column-main hr{
-  width: 20%;
-  margin: 30px ;
+  width: 100px;
+  margin: 30px 0;
 }
 
 .fa-check{
@@ -265,7 +271,9 @@ main .business .card-row p{
   font-size: 0.9rem;
 }
 
-/* Clienti */
+.client div{
+  margin-top: 20px;
+}
 
 .client{
   margin: 50px 0;
@@ -279,9 +287,45 @@ main .business .card-row p{
   margin: 50px 0;
 }
 
+
+/* Clienti */
+
+main .box-clienti{
+  width: 100%;
+}
+
+/* main .box-clienti-left{
+  justify-content: flex-start;
+ 
+} 
+
+main .box-clienti-right{
+  justify-content: flex-start;
+
+}  */
+
+
 .box-client{
   width: calc(100% / 6);
-  height: ;
+  background-color: #0061ff;
+  flex-wrap: wrap;
+}
+
+.inner-box{
+  padding-top: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+
+.inner-box img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
 }
 
 
@@ -293,15 +337,31 @@ footer{
   padding: 1px;
 }
 
-footer ul{
-  font-size: 20px;
+footer .container-big{
+  justify-content: space-between;
+}
+
+footer ul li:first-child{
+  line-height: 20px;
+ 
   color: #f8edda;
-  margin: 30px 40px;
+  margin-bottom: 30px;
 }
 
 
 footer ul li{
   color: #b6bbbe;
-  font-size: 12;
+ 
   margin-top: 15px;
 }
+
+.line-bottom hr{
+  width: 100px;
+  margin: 10px 0;
+}
+
+.line-bottom span{
+  color: white;
+  padding-top: 20px;
+}
+
