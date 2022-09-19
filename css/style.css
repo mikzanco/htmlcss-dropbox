@@ -271,19 +271,19 @@ main .business .card-row p{
   font-size: 0.9rem;
 }
 
-.client div{
+main .client div{
   margin-top: 20px;
 }
 
-.client{
+main .client{
   margin: 50px 0;
 }
 
-.client h2{
+main .client h2{
   font-size: 40px;
 }
 
-.client p{
+main .client p{
   margin: 50px 0;
 }
 
@@ -314,6 +314,10 @@ main .box-sponsor .box-left img, .box-right img{
   bottom: 0;
 }
 
+main .box-sponsor img{
+  filter: invert(1);
+}
+
 main .box-sponsor .box-middle{
   padding: 30px;
   background-color: #f5f5f5;
@@ -324,6 +328,39 @@ main .box-sponsor .box-middle{
 main .box-sponsor .box-middle hr{
   width: 20%;
   margin: 40px 0;
+}
+
+
+main .box-sponsor .box-left .innerbox1{
+  background-color: #a2d39b;
+}
+
+main .box-sponsor .box-left .innerbox2{
+  background-color: #61082b;
+}
+
+main .box-sponsor .box-left .innerbox3{
+  background-color: #0093ce;
+}
+
+main .box-sponsor .box-left .innerbox4{
+  background-color: #ff1c1c;
+}
+
+main .box-sponsor .box-right .innerbox1{
+  background-color: #d5001f;
+}
+
+main .box-sponsor .box-right .innerbox2{
+  background-color: #b4d0e7;
+}
+
+main .box-sponsor .box-right .innerbox3{
+  background-color: #0d2481;
+}
+
+main .box-sponsor .box-right .innerbox4{
+  background-color: #ffd830;
 }
 
 main .blue{
