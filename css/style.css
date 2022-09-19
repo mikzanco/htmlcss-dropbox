@@ -329,6 +329,53 @@ main .box-clienti-right{
 }
 
 
+
+/* Q&E */
+
+.qAe{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.qAe h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.qAe p:first-child{
+  padding: 30px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.qAe p{
+  padding: 30px 0;
+}
+
+.qAe p:last-child{
+  padding: 30px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.qAe .question .chevron{
+ padding-left: 30%;
+}
+
+.qAe .question.one-b.two-b.three-b{
+  display: none;
+}
+
+/* .qAe .question .one:hover{
+  display: none;
+ } */
+
+
+ 
+
+ 
+
+
 /* FOOTER */
 
 footer{
