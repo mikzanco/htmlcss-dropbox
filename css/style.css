@@ -329,6 +329,28 @@ main .box-clienti-right{
 }
 
 
+main .blue{
+  height: 200px;
+  background-color: #b4d0e7;
+}
+
+main .blue .left p{
+  color: #61082b;
+  width: 70%;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main .blue  .btn{
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+}
+
+
+
 
 /* Q&E */
 
@@ -362,13 +384,21 @@ main .box-clienti-right{
  padding-left: 30%;
 }
 
-.qAe .question.one-b.two-b.three-b{
+.qAe .question .answ{
   display: none;
 }
 
-/* .qAe .question .one:hover{
+
+.qAe .question .answ:hover{
+  display: block;
+}
+
+
+/* 
+.qAe .question .quest:hover{
   display: none;
  } */
+
 
 
  
