@@ -465,6 +465,11 @@ footer .container-big{
   justify-content: space-between;
 }
 
+footer .container-big ul li a{
+  color: white;
+  text-decoration: none;
+}
+
 footer ul li:first-child{
   line-height: 20px;
  
