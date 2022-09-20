@@ -34,6 +34,9 @@ li{
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* trovare soluzione per i before */
 /* i:before{
@@ -103,6 +106,14 @@ nav ul a:hover{
   margin-top: 5%;
   width: 30%;
   display: inline-block;
+}
+
+.jumbotron .container-big .btn{
+  margin: 30px 20px;
+}
+
+.jumbotron .container-big .text p{
+  margin: 20px;
 }
 
 .btn .a{
