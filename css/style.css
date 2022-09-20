@@ -148,6 +148,10 @@ img{
 
 /* MAIN */
 
+.btn:hover{
+  background-color: #669aee;
+}
+
 main{
   width: 100%;
 }
