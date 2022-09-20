@@ -313,7 +313,7 @@ main .client p{
 
 
 main .box-sponsor .box-left, .box-right{
-  width: 33%;
+  aspect-ratio: 1/1;
   flex-wrap: wrap;
   justify-content: center;
   min-width: 600px;
@@ -345,7 +345,7 @@ main .box-sponsor .box-middle{
   padding: 30px;
   background-color: #f5f5f5;
   overflow: auto;
-  max-height: 600px;
+  
   aspect-ratio: 1/1;
 }
 
