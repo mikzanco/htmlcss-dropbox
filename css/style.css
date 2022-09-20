@@ -178,7 +178,7 @@ main .container span #annuale{
 main .piano .column{
   width: calc(100% / 3);
   border: 1px solid lightgray;
-  
+  justify-content: space-between;
   padding: 10px;
 }
 
@@ -327,7 +327,7 @@ main .box-sponsor .box-left img, .box-right img{
 }
 
 main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
-  box-shadow: inset 0px 0px 0px 10px rgba(255, 255, 255, .55) ;
+  box-shadow: inset 0px 0px 0px 10px rgba(240, 229, 229, 0.925) ;
 }
 
 
@@ -423,11 +423,22 @@ main .blue  .btn{
 
 .qAe .question{
   padding: 30px 0;
+
+}
+
+/* .qAe .question .a{
+  z-index: 10;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-.qAe .question{
+.qAe .question .b{
+  z-index: 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+} */
+
+.qAe .question {
   position: relative;
 }
 
@@ -435,11 +446,17 @@ main .blue  .btn{
   padding: 30px 0;
 }
 
-/* .qAe p:last-child{
+.qAe .question.a{
   padding: 30px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-} */
+}
+
+.qAe .question:last-child{
+  padding: 30px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
 
 .qAe .question .chevron{
  padding-left: 30%;
