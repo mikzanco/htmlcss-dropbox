@@ -80,6 +80,7 @@ nav ul a:hover{
 
 
 
+
 /* JUMBOTRON */
 
 .jumbotron{
@@ -154,7 +155,7 @@ main img{
   width: 80%;
 }
 
-.btn:hover{
+main .btn:hover{
   background-color: #669aee;
 }
 
@@ -191,11 +192,11 @@ main .piano .column{
   padding: 10px;
 }
 
-.container .piano{
+main .container .piano{
   justify-content: space-between;
 }
 
-.column .center{
+main main main .column .center{
   margin: 0 5px;
 }
 
@@ -208,22 +209,22 @@ main .piano .column .column-main{
   padding: 25px;
 }
 
-h5{
+main main main h5{
   font-size: 20px;
   padding: 25px 0;
 }
 
-.column-main ul li{
+main main main .column-main ul li{
   padding: 10px 0;
   list-style: none;
 }
 
-.column-main hr{
+main main main .column-main hr{
   width: 100px;
   margin: 30px 0;
 }
 
-.fa-check{
+main main main .fa-check{
   color: #0061ff;
 }
 
@@ -260,22 +261,22 @@ main .row p{
 
 /* partner */
 
-.partner{
+main main .partner{
   margin: 100px 0;
 }
 
-.img-partner{
+main main .img-partner{
   width: 70%;
 }
 
-.text-partner{
+main main .text-partner{
   width: 30%;
 }
 
-.text-partner{
+main main .text-partner{
   margin: 20px 0;
 }
-.text-partner .part{
+main main .text-partner .part{
   margin: 20px 20px 0 0;
   background-color: white;
   color: black;
@@ -411,76 +412,57 @@ main .blue  .btn{
 }
 
 
-
-
-
-
-
-
-
 /* Q&E */
 
-.qAe{
+main .qAe{
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.qAe h2{
+main .qAe h2{
   font-size: 40px;
   margin-bottom: 50px;
 }
 
-.qAe .question{
+main .qAe .question{
   padding: 30px 0;
 
 }
 
-/* .qAe .question .a{
-  z-index: 10;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-.qAe .question .b{
-  z-index: 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-} */
-
-.qAe .question {
+main .qAe .question {
   position: relative;
 }
 
-.qAe p{
+main .qAe p{
   padding: 30px 0;
 }
 
-.qAe .question.a{
-  padding: 30px 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-}
-
-.qAe .question:last-child{
+main .qAe .question.a{
   padding: 30px 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
 
-.qAe .question .chevron{
+main .qAe .question:last-child{
+  padding: 30px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+main .qAe .question .chevron{
  padding-left: 30%;
 }
 
-.qAe .question p span i:hover{
+main .qAe .question p span i:hover{
   transform: rotate(180deg);
 }
 
 
-.qAe .question .answ{
+main .qAe .question .answ{
   display: none;
 }
 
-.qAe .question p:hover + .answ{
+main .qAe .question p:hover + .answ{
   display: block;
 }
 
