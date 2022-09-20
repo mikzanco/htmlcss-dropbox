@@ -142,11 +142,17 @@ nav ul a:hover{
   position: absolute;
 }
 
-img{
-  width: 80%;
+.jumbotron .img #img-j{
+  width: 110%;
 }
 
+
+
 /* MAIN */
+
+main img{
+  width: 80%;
+}
 
 .btn:hover{
   background-color: #669aee;
