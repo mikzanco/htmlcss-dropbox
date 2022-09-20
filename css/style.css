@@ -196,7 +196,7 @@ main .container .piano{
   justify-content: space-between;
 }
 
-main main main .column .center{
+main .column .center{
   margin: 0 5px;
 }
 
@@ -209,22 +209,22 @@ main .piano .column .column-main{
   padding: 25px;
 }
 
-main main main h5{
+main  h5{
   font-size: 20px;
   padding: 25px 0;
 }
 
-main main main .column-main ul li{
+main .column-main ul li{
   padding: 10px 0;
   list-style: none;
 }
 
-main main main .column-main hr{
+main .column-main hr{
   width: 100px;
   margin: 30px 0;
 }
 
-main main main .fa-check{
+main .fa-check{
   color: #0061ff;
 }
 
@@ -265,18 +265,18 @@ main .partner{
   margin: 100px 0;
 }
 
-main main .img-partner{
+main .img-partner{
   width: 70%;
 }
 
-main main .text-partner{
+main .text-partner{
   width: 30%;
 }
 
-main main .text-partner{
+main .text-partner{
   margin: 20px 0;
 }
-main main .text-partner .part{
+main .text-partner .part{
   margin: 20px 20px 0 0;
   background-color: white;
   color: black;
