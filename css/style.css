@@ -336,14 +336,20 @@ main .box-sponsor .box-left, .box-right{
   aspect-ratio: 1/1;
   flex-wrap: wrap;
   justify-content: center;
-  min-width: 600px;
+  min-width: 38%;
 }
 
-
-main .box-sponsor .box-left .innerbox1, .box-left .innerbox2, .box-left .innerbox3, .box-left .innerbox4, .box-right .innerbox1, .box-right .innerbox2, .box-right .innerbox3, .box-right .innerbox4 {
+main .box-sponsor [class^="innerbox"] {
   position: relative; 
   padding: 150px;
 }
+
+/* con l'aggiunta della parte di codice qui sopra racchiudo tutta la lunga stringa fatta qui sotto TRA PARENTESI QUADRE INFATTI POSSO PORRE UNA CLASSE SEGUITA DA UN APICE, DAL UGUALE E POI DALLA PAROLA CHE SI RIPETE IN TUTTE LE CLASSI CHE VOGLIO RAGGRUPPARE  */
+
+/* main .box-sponsor .box-left .innerbox1, .box-left .innerbox2, .box-left .innerbox3, .box-left .innerbox4, .box-right .innerbox1, .box-right .innerbox2, .box-right .innerbox3, .box-right .innerbox4 {
+  position: relative; 
+  padding: 150px;
+} */
 
 
 main .box-sponsor .box-left img, .box-right img{
@@ -372,9 +378,13 @@ main .box-sponsor .box-middle span{
  line-height: 100px;
 }
 
-main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
+main .box-sponsor [class^="innerbox"]:active {
   box-shadow: inset 0px 0px 0px 10px rgba(240, 229, 229, 0.925) ;
 }
+
+/* main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
+  box-shadow: inset 0px 0px 0px 10px rgba(240, 229, 229, 0.925) ;
+} */
 
 
 main .box-sponsor .box-left .innerbox1{
