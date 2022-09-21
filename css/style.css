@@ -163,6 +163,10 @@ main{
   width: 100%;
 }
 
+/* main .piano{
+  justify-content: space-between;
+} */
+
 .container{
   justify-content: center;
   align-items: center;
@@ -188,13 +192,13 @@ main .container span #annuale{
 main .piano .column{
   width: calc(100% / 3);
   border: 1px solid lightgray;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 10px;
 }
 
-main .container .piano{
+/* main .container .piano{
   justify-content: space-between;
-}
+} */
 
 main .column .center{
   margin: 0 5px;
@@ -207,6 +211,11 @@ main .piano .column .column-top{
 
 main .piano .column .column-main{
   padding: 25px;
+  /* margin: 0 10px; */
+}
+
+main .column.center{
+  margin: 0 1%;
 }
 
 main  h5{
@@ -336,11 +345,6 @@ main .box-sponsor .box-left img, .box-right img{
   filter: invert(1);
 }
 
-main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
-  box-shadow: inset 0px 0px 0px 10px rgba(240, 229, 229, 0.925) ;
-}
-
-
 main .box-sponsor .box-middle{
   padding: 30px;
   background-color: #f5f5f5;
@@ -355,6 +359,10 @@ main .box-sponsor .box-middle hr{
 
 main .box-sponsor .box-middle span{
  line-height: 100px;
+}
+
+main .box-sponsor .box-left .innerbox1:active, .box-left .innerbox2:active, .box-left .innerbox3:active, .box-left .innerbox4:active, .box-right .innerbox1:active, .box-right .innerbox2:active, .box-right .innerbox3:active, .box-right .innerbox4:active{
+  box-shadow: inset 0px 0px 0px 10px rgba(240, 229, 229, 0.925) ;
 }
 
 
