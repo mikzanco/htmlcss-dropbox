@@ -144,7 +144,7 @@ nav ul a:hover{
 }
 
 .jumbotron .img #img-j{
-  width: 110%;
+  width: 115%;
 }
 
 
@@ -161,6 +161,7 @@ main .btn:hover{
 
 main{
   width: 100%;
+  margin-top: 100px;
 }
 
 /* main .piano{
@@ -456,7 +457,7 @@ main .qAe .question {
 }
 
 main .qAe p{
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 main .qAe .question.a{
@@ -475,7 +476,7 @@ main .qAe .question .chevron{
  padding-left: 30%;
 }
 
-main .qAe .question p span i:hover{
+main .qAe .question p i:hover{
   transform: rotate(180deg);
 }
 
