@@ -434,6 +434,10 @@ main .blue  .btn{
 main .qAe{
   margin-top: 100px;
   margin-bottom: 100px;
+  
+}
+
+main .qAe:hover{
   cursor: pointer;
 }
 
